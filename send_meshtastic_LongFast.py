@@ -14,10 +14,11 @@ CAP_API_URLS = {
 
 # Mapping of SAME codes to counties and states (add more mappings as needed)
 SAME_CODE_MAP = {
-    "029071": ("Franklin County", "MO"),
-    "029099": ("Jefferson County", "MO"),
-    "029221": ("Washington County", "MO"),
-    "029187": ("St. Francois County", "MO")
+    "029071": ("Franklin County, MO", "MO"),
+    "029099": ("Jefferson County, MO", "MO"),
+    "029221": ("Washington County, MO", "MO"),
+    "029187": ("St. Francois County, MO", "MO"),
+    "029186": ("Ste. Genevieve County, MO", "MO"),
 }
 
 # List of SAME codes to filter alerts

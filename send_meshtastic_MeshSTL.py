@@ -15,15 +15,14 @@ CAP_API_URLS = {
 
 # Mapping of SAME codes to counties and states (add more mappings as needed)
 SAME_CODE_MAP = {
-    "029071": ("Franklin County", "MO"),
-    "029099": ("Jefferson County", "MO"),
-    "029189": ("St. Louis County", "MO"),
-    "029510": ("St. Louis City", "MO"),  # Corrected entry for St. Louis City
-    "017119": ("Madison County", "IL"),
-    "017133": ("Monroe County", "IL"),
-    "017163": ("St. Clair County", "IL"),
-    "029221": ("Washington County", "MO"),  # Added Washington County, MO
-    "029183": ("St. Charles County", "MO")
+    "029071": ("Franklin County, MO", "MO"),
+    "029099": ("Jefferson County, MO", "MO"),
+    "029189": ("St. Louis County, MO", "MO"),
+    "029510": ("City Of St. Louis, MO", "MO"),  # Corrected entry for St. Louis City
+    "017119": ("Madison County, IL", "IL"),
+    "017133": ("Monroe County, IL", "IL"),
+    "017163": ("St. Clair County, IL", "IL"),
+    "029183": ("St. Charles County, MO", "MO")
 }
 
 # List of SAME codes to filter alerts
