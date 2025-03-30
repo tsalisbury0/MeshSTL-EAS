@@ -18,7 +18,7 @@ SAME_CODE_MAP = {
     "029099": ("Jefferson County, MO", "MO"),
     "029221": ("Washington County, MO", "MO"),
     "029187": ("St. Francois County, MO", "MO"),
-    "029186": ("Ste. Genevieve County, MO", "MO"),
+    "029186": ("Ste. Genevieve County, MO", "MO")
 }
 
 # List of SAME codes to filter alerts
