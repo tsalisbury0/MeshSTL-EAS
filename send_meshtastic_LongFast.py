@@ -97,7 +97,6 @@ def fetch_cap_alert():
             "Heat Advisory",
             "Air Quality Alert",
             "Air Stagnation Advisory",
-            "Dust Advisory",
             "Dense Fog Advisory",
             "Freezing Fog Advisory",
             "Dense Smoke Advisory",
@@ -135,7 +134,7 @@ def fetch_cap_alert():
                                     county, state = SAME_CODE_MAP[code]
                                     if county == "St. Louis City":
                                         county = "St. Louis City, MO"  # Correct formatting for St. Louis City
-                                    message = f"⚠️ {title} for {county} until {expires_str}\nThreat: {certainty}"
+                                    message = f"⚠️ {title} for {county} until {expires_str}"
                                     messages.append(message[:200])  # Ensure message length limit
                                     sent_alerts.add(alert_id)  # Mark alert as sent
         save_sent_alerts(sent_alerts)  # Save sent alerts to file
